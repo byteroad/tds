@@ -30,12 +30,11 @@ mkdocs build --strict
 
 O HTML estático fica em `site/`.
 
-## Publicação
+## Publicação (opcional)
 
-Publicar o conteúdo de `site/` no caminho pretendido, por exemplo:
+Adicionar subtree ao branch gh-pages
 
-`https://ogcapi.dgterritorio.gov.pt/termosdoservico/`
-
+`git subtree push --prefix site origin gh-pages`
 
 ## Formatos legíveis por máquina
 
